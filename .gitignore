@@ -1,0 +1,57 @@
+# === Gradle ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Kotlin Compiler ===
+*.class
+*.kjs
+*.js.map
+*.jar
+
+# === IntelliJ IDEA / Android Studio ===
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# === macOS ===
+.DS_Store
+
+# === Logs ===
+*.log
+
+# === Kotlin/Java ===
+*.hprof
+
+# === Kotlin Script ===
+*.main.kts.cache/
+
+# === Local environment ===
+local.properties
+
+# === Test reports ===
+test-results/
+reports/
+
+# === Distribution Artifacts ===
+dist/
+
+# === User-specific files ===
+*.swp
+*.swo
+
+# === VSCode ===
+.vscode/
+
+# === Android Studio ===
+captures/
+.externalNativeBuild/
+.cxx/
+
+# === Kotlin multiplatform / native ===
+.kotlinc/
+
+# === Jetpack Compose Preview ===
+*.pb
