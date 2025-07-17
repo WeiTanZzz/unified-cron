@@ -31,3 +31,15 @@ This architecture supports multiple **predefined execution environments**, each 
 It allows different types of jobs to be executed in fully isolated and appropriately provisioned containers.
 
 See [runtimes](https://github.com/WeiTanZzz/unified-cron/tree/main/runtimes) to get more.
+
+## 📌 Example Event
+```json
+{
+	"reference": "f4e79cbe-2264-4ad6-a3d0-7bb2fd59a7af",
+	"jobReference": "e1b6a78a-6aa9-4c1e-a88a-c66a30a4c750",
+	"runtimeType": "KOTLIN",
+	"scriptPath": "jobs.HelloJob1"
+}
+```
+
+⬆️ will trigger jobs.HelloJob1.execute in Koltin runtime
